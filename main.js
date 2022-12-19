@@ -46,4 +46,5 @@ document.querySelector("#cards").innerHTML =
  createCard (
    "WINNER",
    "ARGENTINA"
+   createGame("argentina", "WINNER", "ARGENTINA)
    )
