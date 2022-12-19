@@ -22,30 +22,28 @@ function createCard(date, day, games) {
 }
 document.querySelector("#cards").innerHTML =
   createCard(
-    "20/11",
-    "Grupo A",
-    createGame("catar", "13:00", "equador"
-  )) +
+    "2 WIN",
+    "Grupo G",
+    createGame("brazil", "2 x 0", "serbia") +
+      createGame("brazil", "1 x 0", "switzerland") +
+      createGame("brazil", "0 x 1", "cameroon")
+  ) +
   createCard(
-    "21/11",
-    "Grupo B",
-    createGame("england", "10:00", "irã") +
-      createGame("eua", "16:00", "wales")
+    "WIN",
+    "Oitavas de final",
+    createGame("brazil", "4 x 1", "corea")
   ) +
-  createCard("22/11", "Grupo C", 
-  createGame("argentina", "07:00", "arabia") +
-  createGame("mexico", "13:00", "polonia")) +
-
-  createCard("22/11", "Grupo D",
-  createGame("dinamarca", "10:00", "tunisia") +
-  createGame("france", "16:00", "australia")
+  createCard(
+    "LOST",
+    "Quartas de final",
+    createGame("brazil", "1(2)x(4)1", "croatia")
   ) +
-
-  createCard("23/11", "Grupo E", 
-  createGame("germany", "10:00", "japan") +
-  createGame("spain", "13:00", "costa")
-  ) +
-
-  createCard("23/11", "Grupo F", 
-  createGame("marrocos", "07:00", "croatia") +
-  createGame("belgica", "16:00", "canada"))
+  createCard (
+    "WHAIT",
+    "THE WINNER?",
+    createGame("argentina", "3(4)x3(2)", "france")
+  )
+ createCard (
+   "WINNER",
+   "ARGENTINA"
+   )
